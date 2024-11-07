@@ -1,0 +1,9 @@
+.css-1atu56z-MuiPaper-root {
+  color: transparent !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  background-image: unset;
+  overflow: hidden;
+  transition: 100ms ease-in-out;
+}

@@ -1,0 +1,29 @@
+.column-toggle-container {
+    // background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  
+    .toggle-header {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #495057;
+    }
+  
+    .column-toggle {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  
+    .column-toggle-item {
+      flex: 1;
+      min-width: 150px;
+    }
+  
+    .column-toggle-checkbox {
+      margin-right: 0.5rem;
+    }
+  }
+  

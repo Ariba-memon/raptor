@@ -1,0 +1,11 @@
+.confirm-details-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 55vh; /* Ensure the container covers the full viewport height */
+  }
+  
+  .footer-buttons {
+    margin-top: auto; /* Pushes the footer buttons to the bottom */
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  

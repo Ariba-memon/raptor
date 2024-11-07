@@ -1,0 +1,45 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .property-image {
+    width: 100px;
+    height: 55px;
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: filter 0.3s, transform 0.3s;
+  }
+  
+  .view-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .view-icon {
+    color: white;
+  }
+  
+  .image-container:hover .view-button {
+    opacity: 1;
+  }
+  
+  .image-container:hover .property-image {
+    filter: blur(0);
+    transform: scale(1.05);
+  }
+  
+  

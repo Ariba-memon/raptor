@@ -1,0 +1,44 @@
+/*================================================================================
+	Item Name: RAPTOR - Taimoor Nawaz
+	Version: 2.0
+	Author: TAIMOOR
+	Author URL: ""
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* Common scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* Add height for horizontal scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(43, 43, 43, 0.295);
+  border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(118deg, #bc2d2d, rgba(188, 45, 45, 0.7));
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bc2d2d;
+}
+
+.css-1atu56z-MuiPaper-root {
+  color: transparent !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  background-image: unset;
+  overflow: hidden;
+  transition: 100ms ease-in-out;
+}
